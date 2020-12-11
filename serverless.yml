@@ -14,7 +14,7 @@ inputs:
     src: ./
     exclude:
       - '**[!.js]/**' #排除没有用的文件夹
-      - '.gitignore/LICENSE/README.md/test2.js'
+      - '.gitignore｜LICENSE｜README.md｜test2.js'
       #- 'QuantumultX/**'
 
 #  src: ./
