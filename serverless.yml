@@ -13,8 +13,8 @@ inputs:
   src:
     src: ./
     exclude:
-      - '**[!.js]/**' #删除没有用的文件夹
-      - '.gitignore'  #删除以下其他没有用的文件
+      - '**[!.js]/**' #删除和云函数无法文件夹
+      - '.gitignore'  #删除和云函数无法文件
       - '**.md'
       - '**.json'
       - 'test2.js'
