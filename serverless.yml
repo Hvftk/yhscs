@@ -15,8 +15,12 @@ inputs:
     exclude:
       - '**[!.js]/**' #删除没有用的文件夹
       - '.gitignore'  #删除其他没有用的文件
-      - 'README.md'
+      - 'src/*.md'
+      - 'src/*.json'      
       - 'test2.js'
+      - 'LICENSE'      
+      #- 'README.md'
+      
   
   handler: index.main_handler #入口
   runtime: Nodejs12.16 # 运行环境 默认 Nodejs10.15
