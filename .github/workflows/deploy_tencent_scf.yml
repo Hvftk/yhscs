@@ -2,6 +2,11 @@ name: 部署到腾讯云函数测试
 
 on:
   workflow_dispatch:
+  watch:
+    types: started
+  push:
+    branches: [ master ]
+
 
 jobs:
   build:
