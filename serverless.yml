@@ -13,7 +13,8 @@ inputs:
   src:
     src: ./
     exclude:
-      - 'node_modules/**'
+      - 'icon/**'
+      - 'Surge/**'
 
 #  src: ./
 #  exclude:
