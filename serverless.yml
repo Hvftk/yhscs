@@ -13,9 +13,9 @@ inputs:
   src:
     src: ./
     exclude:
-      - 'icon/**'
-      - 'Surge/**'
-      - 'QuantumultX/**'
+      - '!src/*.js'
+      #- 'Surge/**'
+      #- 'QuantumultX/**'
 
 #  src: ./
 #  exclude:
