@@ -14,8 +14,9 @@ inputs:
     src: ./
     exclude:
       - '**[!.js]/**' #删除没有用的文件夹
-      - '.gitignore'  #删除其他没有用的文件
+      - '.gitignore'  #删除以下其他没有用的文件
       - '**.md'
+      - '**.json'
       - 'test2.js'
       - 'LICENSE'      
       #- 'README.md'
