@@ -13,7 +13,7 @@ inputs:
   src:
     src: ./
     exclude:
-      - '**/**'
+      - '**[!.js]/**'
       #- 'icon/**'
       #- 'QuantumultX/**'
 
