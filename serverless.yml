@@ -13,9 +13,9 @@ inputs:
   src:
     src: ./
     exclude:
-      - '.github/**'
-      - 'icon/**'
-      - 'QuantumultX/**'
+      - '.github/**/.git/**/Loon/**/QuantumultX/**/Surge/**/backUp/**/docker/**/icon/**'
+      #- 'icon/**'
+      #- 'QuantumultX/**'
 
 #  src: ./
 #  exclude:
