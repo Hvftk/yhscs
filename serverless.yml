@@ -15,6 +15,7 @@ inputs:
     exclude:
       - 'icon/**'
       - 'Surge/**'
+      - 'QuantumultX/**'
 
 #  src: ./
 #  exclude:
