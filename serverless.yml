@@ -13,7 +13,7 @@ inputs:
   src:
     src: ./
     exclude:
-      - '.github/**/.git/**/Loon/**/QuantumultX/**/Surge/**/backUp/**/docker/**/icon/**'
+      - '.github/.git/Loon/QuantumultX/Surge/backUp/docker/icon/**'
       #- 'icon/**'
       #- 'QuantumultX/**'
 
