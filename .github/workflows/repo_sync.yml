@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: sync-github
+name: 部署到腾讯云函数2
 on:
   schedule:
     - cron: '1 0,15 * * *'
