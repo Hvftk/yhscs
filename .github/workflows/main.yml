@@ -108,7 +108,7 @@ jobs:
           FACTORAY_WANTPRODUCT_NAME: ${{ secrets.FACTORAY_WANTPRODUCT_NAME}}
 
       - name: "部署到腾讯云函数"
-        run: sls deploy -c serverless1.yml
+        run: sls deploy
         env:
           STAGE: dev
           SERVERLESS_PLATFORM_VENDOR: tencent
