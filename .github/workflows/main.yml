@@ -64,7 +64,7 @@ jobs:
           if [ $TG_PROXY_PORT ]; then sed -i "/variables/a\      TG_PROXY_PORT: $TG_PROXY_PORT" serverless1.yml; fi;
           if [ $MONEY_TREE_SELL_FRUIT ]; then sed -i "/variables/a\      MONEY_TREE_SELL_FRUIT: $MONEY_TREE_SELL_FRUIT" serverless1.yml; fi;
           if [ $FACTORAY_WANTPRODUCT_NAME ]; then sed -i "/variables/a\      FACTORAY_WANTPRODUCT_NAME: $FACTORAY_WANTPRODUCT_NAME" serverless1.yml; fi;
-          cat serverless1.yml
+          cat serverless.yml
           env
         env: #因为直接读取secrets里面的值很多字符不会自动转译，导致写入serverless1.yml异常，所以设置到环境变量，在读取环境变量转译过的值
           JD_COOKIE: ${{ secrets.JD_COOKIE}}
